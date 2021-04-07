@@ -51,7 +51,7 @@
             {% if postelection.voting_system.slug == "PR-CL" %}
               You will have one vote, and can vote for a single party list or independent candidate.
             {% else %}
-              You can choose from <strong>{{ postelection.people|length }} candidates</strong>
+              You can choose from <strong>{{ postelection.ballot_paper_id|length}} ballot options</strong>
               in the {{ postelection.friendly_name }}.
 
               {% if postelection.winner_count and postelection.election.voting_system_id == 'FPTP' %}
