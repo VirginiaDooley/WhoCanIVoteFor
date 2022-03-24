@@ -28,4 +28,4 @@ feedparser==6.0.2
 sentry-sdk==0.19.1
 sopn-publish-date==1.4.3
 
-stripe==2.55.0
+stripe==2.68.0
